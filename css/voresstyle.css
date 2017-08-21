@@ -1,0 +1,243 @@
+/* ----------------GLOBAL (navigation)---------------- */
+
+body{
+    margin:0;
+    padding:0;
+    width:100%;
+    font-family: 'Lato', sans-serif !important;
+}
+#custom-bootstrap-menu.navbar-default {
+    font-size:18px;
+    border-width:0;
+    border-radius:0;
+    float:none;
+    z-index:10;
+    text-align:center;
+    width:60%;
+    margin-left:26%;
+    max-height: 100px;
+}
+
+#custom-bootstrap-menu.navbar-default li  {
+    text-align: center;
+ 
+}
+
+.logo {
+width:100px;
+margin-top:-23px;
+z-index:21;
+
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
+    color:white;
+}
+
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover{
+    text-decoration:underline;
+}
+
+
+
+#custom-bootstrap-menu .dropdown{
+    text-align: center;
+
+}
+
+#custom-bootstrap-menu .dropdown-menu{
+    text-align:center;
+    font-size: 16px;
+
+}
+
+/* ----------------Carousel---------------- */
+
+
+
+.carousel .carousel-inner {
+
+    margin-top: -120px;
+    z-index:0;
+    max-height: 100vh;
+}
+
+.carousel .carousel-caption {
+    font-size:28px;
+    color: #f5f5f5;
+    top: 60%;
+    transform: translateY(-40%);
+    bottom: initial;
+    /*border-style:solid;
+    border-width: 3px 0 0 0;
+    border-radius: 1px;
+    /* http://stackoverflow.com/questions/27279865/how-to-vertically-center-a-bootstrap-carousel-caption*/ 
+
+}
+
+.carousel .carousel-caption .laesmere a {
+   color: #f5f5f5;
+   text-decoration:underline;
+    
+}
+
+.linje{
+    border-top: 3px solid;
+    width:35%;
+    color: #f5f5f5;
+}
+
+@media (max-width: 767px) {
+.carousel .carousel-caption {
+
+    font-size:14px !important;
+
+}
+}
+@media (max-width: 1200px) {
+.carousel .carousel-caption {
+    font-size:18px !important;
+}
+}
+/* ----------------EVENTS---------------- */
+
+.fuld {
+    width:100%;
+    background-image: linear-gradient(rgba(255,255,255,0.8),rgba(255,255,255,0.8)), url('../img/baggrund2.png');
+    background-size:40% auto;
+    background-repeat: initial;
+    font-size:16px;
+
+         
+}
+
+.container {
+    text-align:center;
+   
+   }
+
+.eventtekst {
+    font-size:20px;
+
+}
+
+.col-lg-6 align {
+    vertical-align: middle !important;
+    margin-top:5%;
+
+}
+
+   .scrollto {
+       border-radius:4px;
+       background-color: #f0ad4e;
+       border-color:#f0ad4e;
+       font-size:16px;
+       padding:6px 12px;
+       color: white;
+   }
+
+  /* .texture {
+    background-image: url('../img/baggrund2.png');
+	background-size:50% auto;
+	background-repeat: initial;
+    position:absolute;
+    z-index: -1;
+    opacity:0.5;
+   } */
+
+
+
+    .col-lg-12{
+        width:100%;
+        max-width:100%;
+
+    }
+
+    .col-lg-6{
+        margin-top:7%;
+    }
+    .eventimg {
+        width:90%;
+        height: auto;
+        border-radius:1%;
+    }
+
+    #contact_form {
+        margin-top:7%;
+    }
+    
+    .scrollToTop{
+    width:100px; 
+	height:120px;
+	text-align:center; 
+	background: whiteSmoke;
+	font-weight: bold;
+	color: #444;
+	text-decoration: none;
+	position:fixed;
+	top:70%;
+	right:30px;
+	display:none;
+	background: url('arrow-up.png') no-repeat 15px 20px;
+    background-position: bottom;
+}
+.scrollToTop:hover{
+	text-decoration:none;
+}
+
+/* ------- OM--------- */
+
+.ikoner {
+    width:18%;
+    height: auto;
+    margin-top:12%;
+}
+
+.ikontekst {
+    font-weight: bold;
+}
+
+#omrow {
+    margin-top:3%;
+}
+
+.diagram {
+    margin-top:-10%;
+}
+
+#støt {
+    margin: 30% 0 10% 0;
+}
+
+.alert {
+    display:none;   
+}
+
+/* ------- FOOTER OG ERROR PAGE--------- */
+
+
+footer {
+    background-color: #6e9b69;
+    width:100%;
+    height: 30px;
+    bottom:0;
+    position:fixed;
+    z-index:20;
+}
+
+footer li {
+    color: white;
+    text-align:center;
+    list-style-type: none;
+    float:left;
+    display:inline-block;
+    margin: 5px 0 0 25px;
+}
+
+.error {
+    text-align:center;
+}
+
+.footlist i {
+    font-size:24px;
+    color:white;
+}
